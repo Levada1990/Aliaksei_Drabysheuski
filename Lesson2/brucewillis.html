@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1   {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        p    {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        code {font-family: Verdana, Geneva, Tahoma, sans-serif; color:brown}
+        </style>
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Bruce Willis, Chuck Norris и при чем тут HTML</h1>
+    <p>При кодировании цвета в устаревшем теге &lsaquo;font&rsaquo; можно увидеть весьма интересные вещи.</p>
+    <p>Например, если оформить стиль текста следующим образом, считается, что шрифт станет салатовым</p><br>
+
+    <code>
+        &lsaquo;font colour=&quot;&num;BruceWillis&quot;&rsaquo;Текст&lsaquo;&frasl;font&rsaquo;
+    </code>
+
+    <p>Так как данный тег не поддерживается HTML5, мы решили поискать на просторах интернета варианты цветового оформления элементов HTML.</p>
+    <p>Некоторые привычные знакомые нам слова, термины, фамилии, и пр. могут стать стилем оформления. Это происходит потому, что срабатывает</p>
+    <p>шеснадцатиричная система счисления. Она обрабатывает указанную кодировку следующим образом:</p><br>
+
+    <code>
+        #rrggbb,где rr &mdash; красный, gg &mdash; зеленый, bb &mdash; синий.
+    </code>
+
+    <p>Шеснадцатиричная система счисления учитывает только цифры 0-10 и буквы A-F включительно. Например кодировка &num;ff6347 даст нам светло</p> 
+    <p>алый цвет. Если мы напишем код как набор случайных цифр и букв латинского алфавита, то некорректные символы вне диапазона, указанного</p> 
+    <p>выше, распознаются как 0.</p> 
+    <p>По такому же принципу в современных тегах кодируем цвета. При некоторых параметрах получаются забавные стили.</p> 
+    </pre>
+
+    <p>Пример ниже делает фон ярко красным</p>
+
+    <code>
+        &lsaquo;body background-color=&quot;chucknorris&quot;&rsaquo; test &lsaquo;&frasl;body&rsaquo;
+    </code>
+
+    <p>Все потому, что значения <strong>chucknorris</strong> в шеснадцатиричной системе будет как <strong>c00c0000000</strong>.</p>
+
+        
+
+
+</body>
+</html>
