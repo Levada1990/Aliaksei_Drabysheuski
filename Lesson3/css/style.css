@@ -1,0 +1,24 @@
+div.content {
+    background-color:#fff200;
+    height: 250px;
+    width: 250px;
+    border: 5px solid #000000;
+    float: left;
+    margin: 20px;
+}
+
+div#first {
+    background-color: #00801a;
+}
+
+div#second {
+    background-color: #0800ff;
+}
+
+div#third {
+    background-color: #fff200;
+}
+
+div#fourth {
+    background-color: #ff0000;
+}
