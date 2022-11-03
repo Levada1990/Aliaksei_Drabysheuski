@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+    <style>
+        a{
+            color: green;
+            padding: 5px 10px 5px 10px;
+            border-right: solid red 3px;
+        }
+        a:hover{
+            color: red;
+        }
+        a:last-of-type{
+            border-right: solid white 0px;
+        }
+        td{
+            padding: 1px 2px 4px 2px;
+            border-right: solid red 3px;
+        }
+        td:nth-child(5) { 
+            border-right: solid white 0px; 
+        }
+
+        ul {
+            list-style-type: none;
+        }
+        li {
+            display: inline;
+            border-left: solid red 3px;
+        }
+        li:nth-child(1) { 
+            border-left: solid white 0px;
+        }
+        </style>
+</head>
+<body>
+    <!--Ниже меню построено на том, что ссылки расположены в ряд, одна за одной. Справа, после каждой ссылки стоит красная граница, за исключением последней.-->
+    <div>
+        <a href="https://www.onliner.by/">первая ссылка</a>
+        <a href="https://www.onliner.by/">вторая ссылка</a>
+        <a href="https://www.onliner.by/">третья ссылка</a>
+        <a href="https://www.onliner.by/">четвертая ссылка</a>
+        <a href="https://www.onliner.by/">пятая ссылка</a>
+    </div>
+
+    <br>
+
+    <div>
+        <!--Меню ниже выполнено в виде таблицы. Все правые границы ячеек, кроме последней, выделены красным цветом-->
+        <table>
+            <tr>
+                <td><a href="https://www.onliner.by/">первая ссылка</a></td>
+                <td><a href="https://www.onliner.by/">вторая ссылка</a></td>
+                <td><a href="https://www.onliner.by/">третья ссылка</a></td>
+                <td><a href="https://www.onliner.by/">четвертая ссылка</a></td>
+                <td><a href="https://www.onliner.by/">пятая ссылка</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <div>
+        <ul>
+            <li><a href="https://www.onliner.by/">первая ссылка</a></li>
+            <li><a href="https://www.onliner.by/">вторая ссылка</a></li>
+            <li><a href="https://www.onliner.by/">третья ссылка</a></li>
+            <li><a href="https://www.onliner.by/">четвертая ссылка</a></li>
+            <li><a href="https://www.onliner.by/">пятая ссылка</a></li>
+          </ul>
+    </div>
+</body>
+</html>
