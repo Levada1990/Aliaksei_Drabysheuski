@@ -18,18 +18,18 @@ body{
 }
 
 .title{
-    min-width: 400px;
-    margin: 20px 400px 20px 400px;
+    min-width: 300px;
+    margin: 20px 600px 20px 600px;
     padding: 10px;
     text-align:center ;
     border: solid black 1px;
 }
 
 .container{
-    min-width: 400px;
-    margin: 50px 400px 50px 400px;
+    min-width: 300px;
+    margin: 50px 600px 50px 600px;
     padding: 10px;
-    text-align:left ;
+    text-align:center ;
     border: solid rgb(92, 0, 81) 1px;
 }
 
