@@ -7,19 +7,21 @@
     <title>stars</title>
     <style>
         .turn{
-            float: left;
+            float: right;
         }
         .stars .turn{
             content: url('images/star0.png');
         }
 
-        .stars .turn:hover{
+        .stars > .turn:hover,
+        .stars > .turn:hover ~ .turn{
             content:  url('images/star1.png');
         }
+        
     </style>
 </head>
 <body>
-    <div class="stars">
+    <div class="stars" style="float: left;">
         <div class="turn"><img src="images/star0.png" alt="star0"></div> 
         <div class="turn"><img src="images/star0.png" alt="star0"></div> 
         <div class="turn"><img src="images/star0.png" alt="star0"></div> 
