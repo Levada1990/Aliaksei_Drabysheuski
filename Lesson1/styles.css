@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+.page{
+    margin: 0; 
+    min-width: 900px;
+    background-color: rgb(123, 123, 123); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.homework{
+    min-width: 700px;
+    margin: 10px 50px 10px 50px;
+    text-align:center;
+    border: solid rgb(129, 0, 0) 1px;
+}
+
+.title{
+    min-width: 400px;
+    margin: 20px 400px 20px 400px;
+    padding: 10px;
+    text-align:center ;
+    border: solid black 1px;
+}
+
+.container{
+    min-width: 400px;
+    margin: 50px 400px 50px 400px;
+    padding: 10px;
+    text-align:left ;
+    border: solid rgb(92, 0, 81) 1px;
+}
+
+a    {
+    color: white;
+    text-decoration: none;
+}
