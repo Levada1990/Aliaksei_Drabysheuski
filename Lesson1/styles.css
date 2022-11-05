@@ -19,7 +19,7 @@ body{
 
 .title{
     min-width: 300px;
-    margin: 20px 600px 20px 600px;
+    margin: 20px 500px 20px 500px;
     padding: 10px;
     text-align:center ;
     border: solid black 1px;
@@ -27,7 +27,7 @@ body{
 
 .container{
     min-width: 300px;
-    margin: 50px 600px 50px 600px;
+    margin: 50px 500px 50px 500px;
     padding: 10px;
     text-align:center ;
     border: solid rgb(92, 0, 81) 1px;
