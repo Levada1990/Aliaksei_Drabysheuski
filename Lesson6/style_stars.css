@@ -1,0 +1,15 @@
+.stars{
+    float: left;
+}
+
+.turn{
+    float: right;
+}
+.stars .turn{
+    content: url('images/star0.png');
+}
+
+.stars > .turn:hover,
+.stars > .turn:hover ~ .turn{
+    content:  url('images/star1.png');
+}
