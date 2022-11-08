@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header, .footer{
+    background-color:rgb(119, 205, 227);
+    color: blue;
+    text-align: center;
+    height: 50px;
+}
+.container{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+.menu{
+    background-color: antiquewhite;
+    float: left;
+    width: 300px;
+    padding: 20px;
+}
+.content{
+    background-color: white;
+    width: auto;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}

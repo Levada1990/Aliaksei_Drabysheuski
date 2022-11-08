@@ -1,0 +1,25 @@
+@media all and (max-width:1125px){
+    .menu{
+        height: 400px;
+    }
+}
+
+@media all and (max-width:887px){
+    .menu{
+        height: 500px;
+    }
+}
+
+@media all and (max-width:757px){
+    .menu{
+        height: 600px;
+    }
+}
+
+@media all and (max-width:693px){
+    .menu{
+        height: 300px;
+        float: none;
+        width: 100%;
+    }
+}

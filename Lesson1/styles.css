@@ -3,7 +3,8 @@ body{
 }
 
 .page{
-    margin: 0; 
+    margin-left: 20%; 
+    margin-right: 20%; 
     min-width: 900px;
     background-color: rgb(123, 123, 123); 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,24 +12,29 @@ body{
 }
 
 .homework{
-    min-width: 700px;
-    margin: 10px 50px 10px 50px;
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align:center;
-    border: solid rgb(129, 0, 0) 1px;
+    padding: 20px;
 }
 
 .title{
-    min-width: 300px;
-    margin: 20px 500px 20px 500px;
-    padding: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
     text-align:center ;
     border: solid black 1px;
 }
 
 .container{
-    min-width: 300px;
-    margin: 50px 500px 50px 500px;
-    padding: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
     text-align:center ;
     border: solid rgb(92, 0, 81) 1px;
 }
