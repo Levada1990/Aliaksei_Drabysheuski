@@ -1,25 +1,26 @@
-@media all and (max-width:1125px){
+@media all and (max-width:1200px){
     .menu{
         height: 400px;
     }
 }
 
-@media all and (max-width:887px){
+@media all and (max-width:939px){
     .menu{
         height: 500px;
     }
 }
 
-@media all and (max-width:757px){
+@media all and (max-width:813px){
     .menu{
         height: 600px;
     }
 }
 
-@media all and (max-width:693px){
+@media all and (max-width:735px){
     .menu{
         height: 300px;
         float: none;
         width: 100%;
     }
-}
+    }
+
