@@ -185,3 +185,31 @@ li{
     margin-right: 0px;
     background: url('../img/basket.svg') no-repeat center;
 }
+
+/* header_bottom */
+.header_bottom{
+    background-color: #2A2C38;
+}
+.header_bottom .container ul > li{
+    float: left;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-top: 13px;
+    padding-bottom: 14px;
+}
+li.vline{
+    margin: 7px 19px;
+}
+.carousel-item{
+    width: 1800px;
+    height: 500px;
+    background: no-repeat center;
+}
+.carousel-item:first-child{
+    background-image: url('../img/slide1.jpg');
+}
+.carousel-item:nth-child(2){
+    background-image: url('../img/slide2.jpg');
+}
